@@ -84,7 +84,8 @@ results = []
       supplies.include?("BBQ")
     }.keys
   }.flatten
-end	end
+end	
+end
 
 
 
