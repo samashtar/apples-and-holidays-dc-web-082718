@@ -85,8 +85,6 @@ results = []
     }.keys
   }.flatten
 end	
-end
-end
 
 
 
