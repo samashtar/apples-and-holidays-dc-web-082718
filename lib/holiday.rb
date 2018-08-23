@@ -65,8 +65,9 @@ puts "#{season.to_s.capitalize!}:"
   holidays.each do |holidays, supply|
     
     capitalized = holidays.to_s.split
+    capitalized2 = capitalized.capitalize!
     
-    puts "  #{capitalized.capitalize!}: #{supply.join (", ")}"
+    puts "  #{capitalized}: #{supply.join (", ")}"
   
   
       
